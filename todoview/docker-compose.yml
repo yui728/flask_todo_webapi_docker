@@ -1,0 +1,8 @@
+version: '2.1'
+
+services:
+  todoview:
+    image: todoview
+    build: .
+    ports:
+      - 8080:80
